@@ -3,7 +3,7 @@ name: SonarQube Scan
 on:
   push:
     branches:
-      - developer
+      - feature/git-workflow
 
 jobs:
   build:
